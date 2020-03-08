@@ -1,2 +1,0 @@
-# fuki
-yêu đơn phương
