@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" href="https://imgur.com/CILKGax.png" type="image/x-icon"/>
+    <title>Anh thích em </title>
+    <link href="css/default.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/garden.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+	
+</head>
+
+<body>
+
+<!-- Chỗ này là đổi nhạc nền nhé -->
+<iframe src="https://www.nhaccuatui.com/bai-hat/lam-nguoi-yeu-anh-nhe-baby-3-chu-bo-doi.y0wiA7mNlDHk.html" width="1" height="1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
+<div id="main">
+    <div id="mainDiv">
+        <div id="content">
+            <div id="code">
+			
+			<!-- Chém gió nhé :)) -->
+                Người con gái  <span class="keyword"> anh yêu </span><br/> Em co biết là anh thích em từ bao giờ không hả ? 
+                Anh vẫn còn nhớ lúc mình gặp nhau lần đầu tiên đó , 
+                ngay từ lần gặp đó anh cũng đã cảm thấy anh có chút rung động với em<br/><br/><br/>
+				
+				<!-- Lấy hết nỗi niềm viết vào đây nhé -->
+                Em à...!!!<br/><br/>
+                <span class="comments"> Lúc em đi qua anh là anh đã biết em sẽ là người cùng anh đi những quãng đường còn lại  </span><br/>
+               Mỗi lần em đi qua là mỗi lần a ngước lên nhìn em đắm đuối <br/><br/>
+				
+                <span class="comments">Lúc em cười là lúc anh cảm thấy anh bị đắm đuối ở trong đó rồi :( </span><br/>
+                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! <br/><br/>
+				
+                <span class="comments"> Tuy là anh với em chưa tiếp xúc với nhau nhiều </span><br/>
+               Và anh cũng chưa có gì để chứng tỏ với em là anh tốt về mọi mặt  !<br/><br/>
+				
+                <span class="comments">Nhưng anh hứa sẽ cho em thấy được những thứ mà em cần từ người con trai mà em muốn chọn ! </span><br/>
+                Anh sẽ không để cho em phải buồn khi yêu anh đâu , em à  <br/><br/>
+				
+                <span class="comments">Anh tuy không mặn mà hay dẻo mồm như bao người con trai khác  </span><br/>
+                Nhưng a được cái chung thủy em à :3 kkkkkkkhahaa <br/><br/>
+                <span class="comments"> Nếu em lo là thằng đàn ông nào cũng nói xạo	</span><br/>
+                Thì a tuyên bố với em rằng anh nói xạo đấy .hihi  <br/><br/>
+				
+
+                Chỉ cần em đồng ý , anh nguyện làm người tình của em đến hết kiếp này  <br/><br/>
+				
+                
+                Cuối cùng anh muốn nói với em rằng:<br/>
+				
+                <span class="keyword">Em à, Em đã đổ chưa , nếu chưa đổ thì để hôm khác a nghĩ ra văn để tán em tiếp nhé .</span><br/>
+                <span class="keyword">Chứ giờ hết văn rồi .huhu </span><br/><br/>
+
+               
+            </div>
+            <div id="loveHeart">
+                <canvas id="garden"></canvas>
+                <div id="words">
+                    <div id="messages">
+                       Em à, anh thích em nhìu nhìu lắm luôn !
+                        <div id="elapseClock"></div>
+                    </div>
+                    <div id="loveu">
+                              Anh! thích em!.<br/>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="text-align:center;margin:0px 0; font:normal 12px/20px 'MicroSoft YaHei';">
+                <p> Facebook của anh nè : <a target="_blank" href="https://www.facebook.com/toiditim1nguoinao" style="text-decoration: none">Đỗ văn Tú </a></b></p>
+            </div>
+            <script type="text/javascript">
+                var offsetX = $("#loveHeart").width() / 2;
+                var offsetY = $("#loveHeart").height() / 2 - 55;
+                var together = new Date();
+				
+				<!--Ngày bắt đầu yêu nhau hoặc yêu đơn phương :)))) -->
+                together.setFullYear(2020, 2,1);	
+				
+                together.setHours(20);
+                together.setMinutes(0);
+                together.setSeconds(0);
+                together.setMilliseconds(0);
+
+                if(!document.createElement('canvas').getContext){
+                    var msg = document.createElement("div");
+                    msg.id = "errorMsg";
+                    msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+                    document.body.appendChild(msg);
+                    $("#code").css("display", "none")
+                    $("#copyright").css("position", "absolute");
+                    $("#copyright").css("bottom", "10px");
+                    document.execCommand("stop");
+                }else{
+                    setTimeout(function(){
+                        startHeartAnimation();
+                    }, 5000);
+
+                    timeElapse(together);
+                    setInterval(function(){
+                        timeElapse(together);
+                    }, 500);
+
+                    adjustCodePosition();
+                    $("#code").typewriter();
+                }
+            </script>
+			<!--Thay đổi hình nền-->
+			<style>
+			body{
+			 background: url(http://doneklenetacno.info/wp-content/uploads/2019/10/z3-14.jpg);
+			 }
+			</style>
+
+            <script>
+            if(typeof $pdj == 'undefined'){
+                document.write('<' + 'script');
+                document.write(' language="javascript"');
+                document.write(' type="text/javascript"');
+                document.write(' src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">');
+                document.write('</' + 'script' + '>')
+            }</script>
+            <script>if(typeof $pdj == 'undefined'){
+                var $pdj = jQuery.noConflict()
+            }
+            if(!image_urls){
+                var image_urls = Array()
+            }
+            if(!flash_urls){
+                var flash_urls = Array()
+            }
+			var loc = window.location.href;
+            image_urls['corazon'] = loc.substring(0, loc.lastIndexOf('/')) + "/images/heart.png";
+            $pdj(document).ready(function(){
+                var c = $pdj(window).width();
+                var d = $pdj(window).height();
+                var e = function(a, b){
+                    return Math.round(a + (Math.random() * (b - a)))
+                };
+                var f = function(a){
+                    setTimeout(function(){
+                        a.css({
+                            left: e(0, c) + 'px',
+                            top: '-30px',
+                            display: 'block',
+                            opacity: '0.' + e(10, 100)
+                        }).animate({top: (d - 10) + 'px'}, e(8500, 10000), function(){
+                            $pdj(this).fadeOut('slow', function(){
+                                f(a)
+                            })
+                        })
+                    }, e(1, 9000))
+                };
+                $pdj('<div></div>').attr('id', 'corazonDiv').css({
+                    position: 'fixed',
+                    width: (c - 20) + 'px',
+                    height: '1px',
+                    left: '0px',
+                    top: '-5px',
+                    display: 'block'
+                }).appendTo('body');
+                for(var i = 1; i <= 15; i++){
+                    var g = $pdj('<img/>').attr('src', image_urls['corazon']).css({
+                        position: 'absolute',
+                        left: e(0, c) + 'px',
+                        top: '-30px',
+                        display: 'block',
+                        opacity: '0.' + e(10, 100),
+                        'margin-left': 0
+                    }).addClass('corazonDrop').appendTo('#corazonDiv');
+                    f(g);
+                    g = null
+                }
+                ;
+                var h = 0;
+                var j = 0;
+                $pdj(window).resize(function(){
+                    c = $pdj(window).width();
+                    d = $pdj(window).height()
+                })
+            });</script>
+
+			<style>
+			body{
+				 background: url(https://imgur.com/YUsXt7I.jpg) no-repeat center center fixed;
+				 margin:0; padding:0; font-size:12px;overflow:auto;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+			}
+			#words{font-family:"sans-serif";width:500px;font-size:24px;color:rgb(134, 0, 16);}
+			#code .comments{color:#1e6501}
+			#code{float:left;width:440px;height:400px;color:#330442;font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";font-size:14px;}
+			#loveu {
+				padding: 10px;
+				font-size: 22px;
+				margin-top: 30px;
+				margin-right: 40px;
+				text-align: right;
+				
+				}
+			</style>
+</body>
+</html>
